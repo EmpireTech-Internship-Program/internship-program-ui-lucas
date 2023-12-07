@@ -1,0 +1,70 @@
+.container {
+    position: relative;
+    border: 1px solid blue;
+    padding: 50px;
+    background: blue;
+    width: 340px;
+    height: 380px;
+    border-radius: 8px;
+    margin: 50px auto;
+    margin-left: 620px;
+}
+
+.box {
+    position: relative;
+    border: 1px solid rgb(1, 1, 23);
+    padding: 50px;
+    background: white;
+    width: 280px;
+    height: 310px;
+    border-radius: 8px;
+    margin: -500px auto;
+    margin-left: 270px;
+}
+
+.Welcome {
+    color: azure;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.details {
+    color: white;
+    text-align: center;
+}
+
+.remember {
+    margin-top: 150px;
+    color: black;
+    margin-left: -20px;
+}
+
+.forgot {
+    margin-left: 165px;
+    margin-top: -32px;
+    font-size: 14px;
+}
+
+.checkbox {   
+}
+
+
+
+.signup {
+    color: blue;
+    background-color: dodgerblue;
+    display: block;
+    margin: auto;
+}
+
+.login {
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.email {
+    color: brown;
+    
+}
