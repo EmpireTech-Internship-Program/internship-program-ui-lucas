@@ -1,4 +1,14 @@
-.container {
+.container{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 600px;
+    background-color: beige;
+    position: absolute;
+  }
+
+.box1 {
     position: relative;
     border: 1px solid blue;
     padding: 50px;
@@ -7,10 +17,11 @@
     height: 380px;
     border-radius: 8px;
     margin: 50px auto;
-    margin-left: 620px;
+    margin-left: 450px;
+    box-shadow: -1px -1px 10px 3px rgb(156, 153, 153);
 }
 
-.box {
+.box2 {
     position: relative;
     border: 1px solid rgb(1, 1, 23);
     padding: 50px;
@@ -19,13 +30,16 @@
     height: 310px;
     border-radius: 8px;
     margin: -500px auto;
-    margin-left: 270px;
+    margin-left: 100px;
+    box-shadow: -1px -1px 10px 3px rgb(156, 153, 153);
+
 }
 
 .Welcome {
     color: azure;
     text-align: center;
     margin-top: 130px;
+    font-size: 16px;
 }
 
 .details {
@@ -33,10 +47,28 @@
     text-align: center;
 }
 
-.remember {
-    margin-top: 150px;
+.signup {
+    color: white;
+    background-color: blue;
+    display: block;
+    margin: auto;
+    padding: 12px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px 1px;
+    width: 130px;
+}
+
+.login {
+    text-align: center;
     color: black;
-    margin-left: -20px;
+    margin: 10px 20px;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.remember {
+    margin-top: center;
+    color: black;
 }
 
 .forgot {
@@ -45,26 +77,40 @@
     font-size: 14px;
 }
 
-.checkbox {   
+
+.label {
+    padding-left: 16px;
+    border: 1px solid;
+    margin-top: 12px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    gap: 8px;
+    margin-right: 10px;
 }
 
 
+.label i {
+    color:  #2a2626;
+}
 
-.signup {
-    color: blue;
-    background-color: dodgerblue;
+.label input {
+    border: none;
+    font-size: 16px;
+    padding: 12px 0;
+    outline: none;
+    width: 90%;
+}
+
+
+.log-in {
+    color: white;
+    background-color: blue;
     display: block;
     margin: auto;
-}
-
-.login {
-    text-align: center;
-    color: black;
-    text-decoration: underline;
-    font-size: 20px;
-}
-
-.email {
-    color: brown;
-    
+    padding: 12px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px 1px;
+    width: 130px;
+    margin-top: 30px;
 }
