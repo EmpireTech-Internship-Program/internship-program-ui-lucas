@@ -4,7 +4,7 @@
     transform: translate(-50%, -50%);
     width: 1000px;
     height: 600px;
-    background-color: beige;
+    background-color: whitesmoke;
     position: absolute;
   }
 
@@ -19,7 +19,9 @@
     margin: 50px auto;
     margin-left: 450px;
     box-shadow: -1px -1px 10px 3px rgb(156, 153, 153);
+    background: linear-gradient(90deg, #003153 0%, blue 100%);
 }
+
 
 .box2 {
     position: relative;
@@ -31,7 +33,7 @@
     border-radius: 8px;
     margin: -500px auto;
     margin-left: 100px;
-    box-shadow: -1px -1px 10px 3px rgb(156, 153, 153);
+    box-shadow: -1px -1px 10px 3px rgb(79, 75, 75);
 
 }
 
@@ -54,8 +56,11 @@
     margin: auto;
     padding: 12px;
     border-radius: 5px;
-    box-shadow: 0px 1px 4px 1px;
+    box-shadow: 0px 1px 20px 1px rgb(0, 0, 129);
     width: 130px;
+    border-top: 20px;
+    border-left: 20px;
+    border-right: 20px;
 }
 
 .login {
@@ -87,6 +92,8 @@
     align-items: center;
     gap: 8px;
     margin-right: 10px;
+    color: gray;
+    box-shadow: 1px 1px 7px -2px darkturquoise;
 }
 
 
@@ -99,9 +106,12 @@
     font-size: 16px;
     padding: 12px 0;
     outline: none;
-    width: 90%;
+    width: 80%;
 }
 
+.bar {
+    color: gray;
+}
 
 .log-in {
     color: white;
@@ -114,3 +124,6 @@
     width: 130px;
     margin-top: 30px;
 }
+
+
+
